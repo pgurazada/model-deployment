@@ -16,7 +16,7 @@ app = Flask('incomepredictor')
 
 @app.route("/")
 def main_message():
-    return "Income Predictor"
+    return "income predictor"
 
 
 @app.route('/predict', methods=['GET', 'POST'])
