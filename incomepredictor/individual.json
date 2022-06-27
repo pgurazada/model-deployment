@@ -1,0 +1,14 @@
+{
+    "Age": 39.0,
+    "Workclass": " State-gov",
+    "Education-Num": 13.0,
+    "Marital Status": " Never-married",
+    "Occupation": " Adm-clerical",
+    "Relationship": " Not-in-family",
+    "Race": " White",
+    "Sex": " Male",
+    "Capital Gain": 2174.0,
+    "Capital Loss": 0.0,
+    "Hours per week": 40.0,
+    "Country": " United-States"
+}
