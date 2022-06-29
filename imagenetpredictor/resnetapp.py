@@ -36,6 +36,10 @@ def prepare_image(image, target):
 	# return the processed image
 	return image
 
+@app.route("/")
+def main_message():
+    return "Hello, I use ResNet50 to serve predictions"
+
 @app.route("/predict", methods=["POST"])
 def predict():
 	# initialize the data dictionary that will be returned from the
@@ -77,4 +81,4 @@ if __name__ == "__main__":
 	print(("* Loading Keras model and Flask starting server..."
 		      "please wait until server has fully started"))
 	load_model()
-	app.run()
+	app.run(host='0.0.0.0', port=5000)
