@@ -1,1 +1,1 @@
-Deploy a object dection web app
+Deploy an object dection web app
