@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/acads/model-deployment/winequalitypredictor/mlruns/0/06cca0f9cecc4424b8ebb5d2f13f37c4/artifacts
+end_time: 1659163231883
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 06cca0f9cecc4424b8ebb5d2f13f37c4
+run_uuid: 06cca0f9cecc4424b8ebb5d2f13f37c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1659156305834
+status: 3
+tags: []
+user_id: IT
