@@ -24,14 +24,14 @@ class Wine(BaseModel):
 @app.on_event("startup")
 def load_classifier():
     # Load classifier from pickle file
-    with open("wine-quality-prediction-model.pkl", "rb") as file:
+    with open("/app/wine-quality-prediction-model.pkl", "rb") as file:
         global classifier
         classifier = pickle.load(file)
 
 
 @app.get("/")
 def home():
-    return "Welcome, for predictions go to http://localhost:8000/docs"
+    return "Welcome, for predictions go to http://localhost:80/docs"
 
 
 @app.post("/predict/v1")
